@@ -1,24 +1,18 @@
 # Sheikh Shahmeer Hassan — Portfolio Website
 
-This folder is ready for GitHub Pages.
+GitHub Pages portfolio for Sheikh Shahmeer Hassan.
 
-## Upload
-Upload the ENTIRE contents of this folder to the root of:
-`Shahmeerhassn/Shahmeerhassn.github.io`
-
-The root must contain:
-- index.html
-- assets/
+## Repository structure
+- `index.html` — portfolio entry point
+- `portfolio-payload.txt` — compressed portfolio HTML payload used by the entry point
+- `assets/` — profile, CV, project images, drawing sheets and professional highlights
 
 ## GitHub Pages
 Repository → Settings → Pages
 - Source: Deploy from a branch
-- Branch: main
-- Folder: / (root)
-- Save
+- Branch: `main`
+- Folder: `/` (root)
 
-Then open:
-https://shahmeerhassn.github.io/
+Then open: `https://shahmeerhassn.github.io/`
 
-## Important
-Keep the filenames and folder structure unchanged. The HTML references the supplied photographs, CV, project images, professional highlights, drawing PDFs and generated drawing thumbnails.
+Keep the `assets/` filenames and folder structure unchanged when replacing the portfolio media.
